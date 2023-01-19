@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Павел Попов](https://up.htmlacademy.ru/htmlcss/36/user/2251743).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
