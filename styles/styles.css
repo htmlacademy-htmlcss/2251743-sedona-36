@@ -399,8 +399,12 @@ body {
 }
 
 .subscribe-index {
-  width: 1200px;
-  height: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 684px;
+  height: 215px;
+  padding: 96px 258px 104px 258px;
   background-color: #92c6e9;
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
@@ -408,6 +412,8 @@ body {
 }
 
 .subscribe-index-title {
+  display: block;
+  margin: 0;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
@@ -419,6 +425,8 @@ body {
 }
 
 .subscribe-index-text {
+  display: block;
+  margin-top: 20px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -429,6 +437,7 @@ body {
 }
 
 .subscribe-form {
+  margin-top: 54px;
   text-align: center;
 }
 
@@ -447,11 +456,52 @@ body {
   background-position: center center;
 }
 
+.social-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1060px;
+  height: 50px;
+  padding: 0;
+  margin: 40px auto 30px auto;
+}
+
 .social-list {
+  display: flex;
+  flex-direction: row;
+  width: 142px;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
+.social-item {
+  display: block;
+}
+
+.social-vk {
+  display: block;
+  padding: 13px;
+}
+
+.social-telegram {
+  display: block;
+  padding: 13px;
+}
+
+.social-youtube {
+  display: block;
+  padding: 13px;
+}
+
 .telephone {
+  display: block;
+  width: 720px;
+  height: 50px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
