@@ -358,6 +358,8 @@ body {
 
 .search-hotel-title {
   display: block;
+  width: 297px;
+  height: 36px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
@@ -370,13 +372,15 @@ body {
 
 .search-hotel-text {
   display: block;
+  width: 592px;
+  height: 52px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 54px auto;
 }
 
 .search-hotel-link {
