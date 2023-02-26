@@ -15,9 +15,15 @@
 }
 
 html {
+  width: 1200px;
   height: 100%;
-  padding: 0;
-  margin: 0;
+  padding: 0 40px;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 body {
@@ -27,18 +33,26 @@ body {
   font-weight: 400;
   width: 1200px;
   height: 100%;
-  margin: auto;
-  color: #000000;
-  background-color: #ffffff;
+  margin: 0;
+  color: #333333;
+  background-color: #F2F2F2;
 }
 
 .main-container {
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  flex-direction:column;
+  background-color:#FFFFFF;
+  margin:0 auto;
+  width: 1200px;
   min-height: 100%;
+  box-shadow:0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .main-index {
+  flex-grow: 1;
+}
+
+.catalog-main {
   flex-grow: 1;
 }
 
@@ -135,6 +149,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 69px auto 25px auto;
+  color: #000000;
 }
 
 .about-text {
@@ -148,16 +163,16 @@ body {
   margin: 25px auto 90px auto;
 }
 
-.advantages-item {
-  display: flex;
-}
-
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.advantages-item {
+  display: flex;
 }
 
 .advantages-title {
@@ -213,6 +228,10 @@ body {
   color: #ffffff;
 }
 
+.color-text-black {
+  color: #000000;
+}
+
 .color-darkblue {
   background: #82B3D3;
 }
@@ -237,7 +256,23 @@ body {
   padding: 0;
 }
 
+.services-title-wrapper {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 182px;
+  padding: 64px 0 0 0;
+  margin: 0;
+}
+
 .offers-title {
+  display: block;
+  width: 505px;
+  height: 72px;
+  padding: 0;
+  margin: 0 auto 20px auto;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
@@ -248,6 +283,11 @@ body {
 }
 
 .offers-text {
+  display: block;
+  width: 490px;
+  height: 26px;
+  padding: 0;
+  margin: 20px auto 64px auto;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -257,10 +297,22 @@ body {
 }
 
 .services-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
+.services-item {
+  display: flex;
+}
+
 .services-title {
+  display: block;
+  width: 230px;
+  height: 28px;
+  margin: 30px auto;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
@@ -271,12 +323,29 @@ body {
 }
 
 .services-text {
+  display: block;
+  width: 230px;
+  height: 63px;
+  margin: 0 auto;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+}
+
+.wrapper-square-services {
+  width: 230px;
+  height: 223px;
+  padding: 81px 85px;
+}
+
+.service-icon {
+  display: block;
+  width: 75px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .search-hotel {
