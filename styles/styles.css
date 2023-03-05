@@ -28,7 +28,7 @@ body {
   width: 1200px;
   min-height: 100%;
   margin: 0;
-  padding 0;
+  padding: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -196,7 +196,7 @@ body {
 .advantages-title {
   display: block;
   width: 175px;
-  height: 56px;
+  min-height: 56px;
   margin: 0 auto;
   font-family: 'PT Sans';
   font-style: normal;
@@ -210,7 +210,7 @@ body {
 .advantages-descripion {
   display: block;
   width: 232px;
-  height: 42px;
+  min-height: 42px;
   margin: 0 auto;
   font-family: 'PT Sans';
   font-style: normal;
@@ -222,17 +222,17 @@ body {
 
 .advantages-item {
   display: flex;
-}
-
-.wrapper-square {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 102px 85px;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   box-sizing: border-box;
+}
+
+.advantages-image {
+  width: 800px;
+  height: auto;
 }
 
 .divider-block {
@@ -698,9 +698,8 @@ body {
 }
 
 .hotel-list {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 0 0 40px 0;
   margin: 0;
   border-bottom: 1px solid #E6E6E6;
@@ -727,6 +726,16 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+}
+
+.card-inner-pusher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-top: auto;
 }
 
 .hotel-card-title {
